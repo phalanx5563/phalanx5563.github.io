@@ -13,7 +13,7 @@
       <hr>
       <div class="row">
         <div class="col-6">
-          <h1>Phalanx Team 5563</h1>
+          <h1>Phalanx Team 5563 <?php> phpinfo(); ?> </h1>
         </div>
         <div class="col-6">
           <p class="text-right"><a href="">Download this Info Sheet</a></p>
@@ -132,19 +132,19 @@ Lynn, Massachusetts 01902<br>
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8  col-12 jumbotron" id="rcorners1">
-            <form>
+            <form action="https://formspree.io/mbjgnokk" method="POST">
               <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                <input type="text" class="form-control" id="name" name="senderName" placeholder="Name">
               </div>
               <div class="form-group">
                 <label for="email">E-Mail</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" aria-describedby="emailHelp">
+                <input type="email" class="form-control" id="email" name="senderEmail" placeholder="Email Address" aria-describedby="emailHelp">
                 <span id="emailHelp" class="form-text text-muted" style="display: none;">Please enter a valid e-mail address.</span>
               </div>
               <div class="form-group">
                 <label for="message">Message</label>
-                <textarea rows="10" cols="100" class="form-control" id="message" name="message" placeholder="Message" aria-describedby="messageHelp"></textarea>
+                <textarea rows="10" cols="100" class="form-control" id="message" name="senderMessage" placeholder="Message" aria-describedby="messageHelp"></textarea>
                 <span id="messageHelp" class="form-text text-muted" style="display: none;">Please enter a message.</span>
               </div>
               <div class="text-center">
