@@ -5283,6 +5283,7 @@ a.badge-dark:hover, a.badge-dark:focus {
   white-space: nowrap;
   background-color: #007bff;
   transition: width 0.6s ease;
+	height: 30px;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
