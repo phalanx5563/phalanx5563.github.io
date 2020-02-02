@@ -473,8 +473,8 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  background-color: #323232;
+  border: 1px solid #323232;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
@@ -9915,8 +9915,16 @@ a.text-dark:hover, a.text-dark:focus {
     background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
     text-align: center;
     background-size: 800% 800%;
-    webkit-text-fill-color: white;
+    webkit-text-fill-color: transparent;
     animation: rainbow 7s ease infinite;
+}
+.rainbow-text2 {
+    background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+    text-align: center;
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 5s ease infinite;
 }
 
 .badge-tertiary {
@@ -9965,5 +9973,39 @@ background-size: 1800% 1800%;
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
+}
+
+
+
+
+.smh1fg {
+    background-image: repeating-linear-gradient(45deg, blue, gold);
+    text-align: center;
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 3s ease infinite;
+}
+.smh1bg {
+    background-image: repeating-linear-gradient(45deg, blue, gold);
+    text-align: center;
+    background-size: 800% 800%;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 3s ease infinite;
+}
+.smh2fg {
+    background-image: repeating-linear-gradient(45deg, gold, blue);
+    text-align: center;
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 3s ease infinite;
+}
+.smh2bg {
+    background-image: repeating-linear-gradient(45deg, gold, blue);
+    text-align: center;
+    background-size: 800% 800%;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 3s ease infinite;
 }
 /*# sourceMappingURL=bootstrap.css.map */
